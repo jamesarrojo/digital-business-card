@@ -1,9 +1,10 @@
 import React from "react"
+import myPicture from "../assets/2x2.png"
 
 export default function Info() {
     return (
         <section className="info">
-            <img src="../assets/2x2.png" />
+            <img src={myPicture} />
             <h1>Isemman James Arrojo</h1>
             <h3>Frontend Developer</h3>
             <span>jamesarrojo.com</span>

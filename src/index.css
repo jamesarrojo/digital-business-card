@@ -14,14 +14,16 @@ body {
 }
 
 #root {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   max-width: 317px;
   margin: auto;
   background: #1A1B21;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 35px
+  padding: 0 35px 0 35px;
+  border-radius: 10px;
+  
 }
 
 h1 {
@@ -29,8 +31,9 @@ h1 {
   font-size: 25px;
   line-height: 30px;
   text-align: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
+  margin-bottom: 0;
   width: 317px;
 }
 
@@ -39,9 +42,11 @@ h1 + h3 {
   font-size: 12.8px;
   line-height: 15px;
   text-align: center;
-
+  margin-top: 5px;
+  margin-bottom: 8px;
   color: #F3BF99;
 }
+
 
 .info {
   display: flex;
@@ -50,11 +55,19 @@ h1 + h3 {
   
 }
 
+.info > img {
+  width: 317px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 
 .buttons {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .buttons > a {
@@ -91,12 +104,34 @@ h1 + h3 {
   color: #ffffff;
 }
 
+
+h2 {
+  margin-bottom: 5px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+
+.about, .interests {
+  text-align: left;
+}
+
 .footer {
   display: flex;
   justify-content: space-around;
   width: 317px;
   height: 64px;
   background: #161619;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  padding: 20px 74px 20px 74px;
+  margin-top: 35px;
 
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
